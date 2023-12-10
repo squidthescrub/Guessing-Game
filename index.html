@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="jumpScare" src="jumpScare.mp3"></audio>
+    <audio id="death" src="death.wav"></audio>
+    <embed id="backgroundSound" src="spooky.mp3" loop="true" autostart="true" width="2px" height="0px"> </embed>
+    <div class="header">
+        <h1> GUESS OR DIE!</h1>
+
+    </div>
+    
+  <div class="form">
+    <form>
+      <div class="buttons"> 
+      <button type="button" class="guess">1</button>
+      <button type="button" class="guess">2</button>
+      <button type="button" class="guess">3</button>
+      <button type="button" class="guess">4</button>
+      <button type="button" class="guess">5</button> <br>
+      <button type="button" class="guess">6</button>
+      <button type="button" class="guess">7</button>
+      <button type="button" class="guess">8</button>
+      <button type="button" class="guess">9</button>
+      <button type="button" class="guess">10</button>
+        </div>
+    </form>
+    
+    <P class="hint" id="hint">Good Luck!</P>
+    <p class="attempts" id="attempts"></p>
+    <button onclick="window.location.reload()" id="playAgain" class="playAgain">Play Again!</button>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
